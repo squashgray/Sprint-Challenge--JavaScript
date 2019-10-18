@@ -38,7 +38,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation: 
 
-// ANSWER : Because it inherited that variable from its outer function (myFunction) //
+// ANSWER : Because of Closure it inherited that variable from its outer function, the outer function (myFunction) works like a parent to the (nestedFunction) child  //
 
 
 const external = "I'm outside the function";
