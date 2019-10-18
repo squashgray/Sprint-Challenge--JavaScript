@@ -16,6 +16,13 @@ class CuboidMaker {
   
   }
   
+  class CubeMaker extends CuboidMaker {
+      constructor(cubeAttributes){
+          super(cubeAttributes);
+      }
+      
+  }
+
   /* == Step 2: Volume Method ==
     Create a method using CuboidMaker's prototype that returns the volume of a given cuboid's length, width, and height
     
@@ -42,6 +49,12 @@ class CuboidMaker {
     length: 4,
     width: 5,
     height: 5
+  });
+
+  const cube = new CubeMaker({
+    length: 4,
+    width:4,
+    height: 4
   });
 
 
